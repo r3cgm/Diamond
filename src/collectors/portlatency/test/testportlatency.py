@@ -6,6 +6,8 @@ from test import CollectorTestCase
 from test import get_collector_config
 from portlatency import PortLatencyCollector
 
+################################################################################
+
 
 class TestPortLatencyCollector(CollectorTestCase):
     def setUp(self):

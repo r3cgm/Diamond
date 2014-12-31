@@ -5,7 +5,8 @@ from socket import error as socket_error
 import time
 
 """
-Collect tcp or udp port opening times.
+Collect tcp or udp port opening times.  Useful for example if you need to
+monitor remote server API response times.
 
 ##### Configuration
 
