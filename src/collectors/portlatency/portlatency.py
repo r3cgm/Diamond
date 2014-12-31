@@ -35,10 +35,11 @@ We embed the name of the host in the metric string.
 """
 
 
-class PortLatency(diamond.collector.Collector):
+class PortLatencyCollector(diamond.collector.Collector):
 
     def get_default_config_help(self):
-        config_help = super(PortLacency, self).get_default_config_help()
+        config_help =
+            super(PortLatencyCollector, self).get_default_config_help()
         config.update({
             'path': 'portlatency',
         })
@@ -48,7 +49,7 @@ class PortLatency(diamond.collector.Collector):
         """
         Returns the default collector settings.
         """
-        config = super(PortLatency, self).get_default_config()
+        config = super(PortLatencyCollector, self).get_default_config()
         return config
 
     def collect(self):
